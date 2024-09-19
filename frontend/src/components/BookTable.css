@@ -1,0 +1,91 @@
+.book-table-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .toggle-cart {
+    display: block;
+    margin: 10px auto;
+    padding: 10px 20px;
+    background-color: #ff5722;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .toggle-cart:hover {
+    background-color: #e64a19;
+  }
+  
+  .cart-details {
+    margin-top: 20px;
+  }
+  
+  .cart-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+  }
+  
+  .cart-table th, .cart-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  .cart-table th {
+    background-color: #ff5722; /* Header color */
+    color: white;
+  }
+  
+  .cart-table tr:nth-child(even) {
+    background-color: #f2f2f2; /* Zebra striping */
+  }
+  
+  .cart-table tr:hover {
+    background-color: #ffe0b2; /* Highlight on hover */
+  }
+  
+  .user-details {
+    margin-top: 20px;
+  }
+  
+  .user-details form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .user-details label {
+    margin-bottom: 10px;
+  }
+  
+  .user-details input, .user-details select {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .user-details button {
+    padding: 10px;
+    background-color: #ff5722;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .user-details button:hover {
+    background-color: #e64a19;
+  }
+  
